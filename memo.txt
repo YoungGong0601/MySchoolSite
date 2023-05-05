@@ -1,3 +1,9 @@
 기본 기능
 peek
     alt + f12 => 코드 함수를 볼 수 있음
+refactoring
+    ctrl + shift + R => 블럭한 코드를 여러모로 할수 있음
+                        함수로 감싸기, 다른 파일로 만들기, 변수로 만들기
+rename symbol
+    F2 => 연관된 변수를 다 바꿔줌
+    

@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div>Hello World!</div>
-    <h1>Nice to meet you!</h1>
-    <h4>hi!</h4>
-</body>
+    <style>
+      .button-container {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        align-items: center;
+      }
+
+      button {
+        padding: 40vh 10vh;
+        margin: 0 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: none;
+        filter: brightness(50%);
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+      }
+      button:hover {
+        transform: scale(1.1);
+        filter: brightness(100%);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+      <button style="background-image: url('img/벤티.webp')"></button>
+      <button style="background-image: url('img/종려.webp')"></button>
+      <button style="background-image: url('img/라이덴.webp')"></button>
+      <button style="background-image: url('img/나히다.webp')"></button>
+    </div>
+  </body>
 </html>
